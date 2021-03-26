@@ -1,0 +1,28 @@
+{
+  "name": "ci-example",
+  "version": "1.0.0",
+  "description": "ci-example",
+  "main": "index.js",
+  "engines": {
+    "node": "11.10.0",
+    "npm": "6.7.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/simonmcho/ci-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/simonmcho/ci-example/issues"
+  },
+  "homepage": "https://gitlab.com/simonmcho/ci-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.9.0"
+  }
+}
